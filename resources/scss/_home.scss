@@ -1,0 +1,20 @@
+.row {
+    margin-bottom: 30px;
+
+    .card {
+        height: 600px;
+        img {
+            max-height: 450px;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
